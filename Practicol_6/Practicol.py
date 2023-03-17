@@ -1,6 +1,11 @@
 try:
     fileRead = open('111.txt', encoding = 'UTF-8')
     reader = fileRead.read()
+    rlist = fileRead.readline()
+    
+
+    
+
     reader = reader.replace("\n", "")
     list = reader.split(" ")
     
